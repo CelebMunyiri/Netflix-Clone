@@ -304,15 +304,16 @@ hr {
 }
 .what {
   position: relative;
-  height: 100px;
+  height: 60px;
   width: 800px;
   color: #fff;
-  background: gray;
+  background: rgb(59, 59, 59);
   left: 21%;
   top: 10%;
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  padding: 10px 30px;
 }
 button {
   position: relative;
