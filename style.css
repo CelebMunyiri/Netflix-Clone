@@ -234,7 +234,7 @@ hr {
   height: 400px;
   width: 550px;
   left: 55%;
-  bottom: 40%;
+  bottom: 50%;
 }
 .p16 {
   position: relative;
@@ -289,4 +289,36 @@ hr {
   position: relative;
   top: 10%;
   left: 5%;
+}
+.prt7 {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+}
+.f {
+  position: absolute;
+  color: #fff;
+  font-size: 40px;
+
+  left: 30%;
+}
+.what {
+  position: relative;
+  height: 100px;
+  width: 800px;
+  color: #fff;
+  background: gray;
+  left: 21%;
+  top: 10%;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+button {
+  position: relative;
+  color: #fff;
+  border: none;
+  background: none;
+  font-size: 35px;
+  left: 50%;
 }
