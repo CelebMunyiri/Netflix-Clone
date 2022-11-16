@@ -13,21 +13,23 @@
   position: relative;
   top: 0;
   left: 90%;
-  background: rgba(255, 0, 0, 0.884);
+  background: rgba(236, 39, 39, 0.884);
   color: #fff;
-  width: 95px;
-  height: 40px;
-  border-radius: 5%;
+  width: 90px;
+  height: 35px;
+  border-radius: 0.5rem;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: Medium;
+  bottom: 100%;
 }
 h1 {
   position: relative;
   top: 20px;
   left: 40px;
-  font-size: 40px;
-  color: rgba(255, 0, 0, 0.904);
-  font-weight: lighter;
+  font-size: 50px;
+  color: rgba(219, 38, 38, 0.904);
+  font-weight: bold;
 }
 .intro {
   height: 100vh;
@@ -43,21 +45,22 @@ h1 {
   top: 22%;
   justify-content: center;
   text-align: center;
-  font-size: 60px;
-  font-weight: Medium;
+  font-size: 55px;
+  font-weight: bold;
 }
 .p2 {
   position: relative;
   top: 23%;
   justify-content: center;
   text-align: center;
-  font-size: 60px;
-  font-weight: Medium;
+  font-size: 55px;
+  font-weight: bold;
 }
 .p3 {
   position: relative;
   top: 24%;
-  font-size: 35px;
+  font-size: 30px;
+  font-weight: Medium;
 }
 .p4 {
   position: relative;
@@ -78,21 +81,23 @@ h1 {
   cursor: pointer;
   transition: 0.1s;
   font-size: 20px;
+  border: 1px solid gray;
 }
 .get:hover {
   background-color: rgb(255, 0, 0);
 }
 input {
+  padding: 0px 10px;
   position: relative;
   left: 25%;
   top: 28%;
-  height: 60px;
+  height: 59px;
   width: 450px;
 
-  text-align: left 20px;
   /* padding:10px 10px; */
-  font-size: 20px;
-  border: none;
+  font-size: 17px;
+  border: 1px solid gray;
+  font-weight: Medium;
 }
 hr {
   height: 9px;
@@ -293,7 +298,7 @@ hr {
 .prt7 {
   background: black;
   width: 100vw;
-  height: 100vh;
+  height: 140vh;
 }
 .f {
   position: absolute;
@@ -302,24 +307,65 @@ hr {
 
   left: 30%;
 }
-.what {
+.hidden {
+  display: none;
+}
+.open {
   position: relative;
-  height: 60px;
-  width: 800px;
-  color: #fff;
-  background: rgb(59, 59, 59);
   left: 21%;
   top: 10%;
+  width: 800px;
+  height: 80px;
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  padding: 10px 30px;
+  color: #fff;
+  background: rgb(49, 49, 49);
+  margin: 10px;
+  text-align: 10px 20px;
+}
+.it {
+  justify-items: center;
+  left: 21%;
+  top: 12%;
+  position: relative;
+  color: #fff;
+  background: rgb(48, 47, 47);
+  font-size: 30px;
+  width: 800px;
+  height: 300px;
+  margin: 10px;
+  padding: -20px 10px;
 }
 button {
   position: relative;
+  background: none;
+  font-size: 70px;
   color: #fff;
   border: none;
-  background: none;
-  font-size: 35px;
+  cursor: pointer;
   left: 50%;
+  font-weight: lighter;
+}
+.butn {
+  rotate: 45deg;
+}
+nav {
+  padding: 0px 20px;
+}
+.sign2 {
+  position: relative;
+  top: 25%;
+  left: 15%;
+  height: 100px;
+  width: 800px;
+}
+.sign2 p {
+  color: #fff;
+  left: 15%;
+}
+footer {
+  height: 60vh;
+  width: 100vw;
+  background: black;
 }
