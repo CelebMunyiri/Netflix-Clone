@@ -361,11 +361,20 @@ nav {
   width: 800px;
 }
 .sign2 p {
+  position absolute;
   color: #fff;
-  left: 15%;
+  
 }
 footer {
   height: 60vh;
   width: 100vw;
   background: black;
+  list-style: none;
+  color:gray;
+}
+footer a{
+  display:flexbox;
+  text-decoration-color: gray;
+  list-style: none;
+  
 }

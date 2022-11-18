@@ -3,6 +3,7 @@ const open = document.querySelectorAll(".open");
 const it = document.querySelectorAll(".it");
 const buton = document.querySelectorAll(".btn");
 const butn = document.querySelectorAll(".butn");
+
 for (let i = 0; i < buton.length; i++)
   for (let i = 0; i < it.length; i++)
     buton[i].addEventListener("click", function () {
