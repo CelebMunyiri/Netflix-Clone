@@ -325,10 +325,14 @@ hr {
   text-align: 10px 20px;
 }
 .it {
-  justify-items: center;
+  position: relative;
   left: 21%;
   top: 12%;
-  position: relative;
+  display: hidden;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: end;
   color: #fff;
   background: rgb(48, 47, 47);
   font-size: 30px;
@@ -356,25 +360,25 @@ nav {
 .sign2 {
   position: relative;
   top: 25%;
-  left: 15%;
+  left: 14%;
   height: 100px;
   width: 800px;
 }
 .sign2 p {
-  position absolute;
+  position: relative;
+  bottom: 20%;
+  left: 25%;
   color: #fff;
-  
 }
 footer {
   height: 60vh;
   width: 100vw;
   background: black;
   list-style: none;
-  color:gray;
+  color: gray;
 }
-footer a{
-  display:flexbox;
+footer a {
+  display: flexbox;
   text-decoration-color: gray;
   list-style: none;
-  
 }
