@@ -23,9 +23,11 @@
   font-weight: Medium;
   bottom: 100%;
 }
-h1 {
+.h1 {
+  height: 90px;
+  width: 160px;
   position: relative;
-  top: 20px;
+  top: 10px;
   left: 40px;
   font-size: 50px;
   color: rgba(219, 38, 38, 0.904);
@@ -34,6 +36,7 @@ h1 {
 .intro {
   height: 100vh;
   background: url("images/background.jpg");
+  background-color: rgb(190, 186, 186);
 }
 .intro p {
   text-align: center;
