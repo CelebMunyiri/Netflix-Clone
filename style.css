@@ -380,18 +380,28 @@ footer {
   color: gray;
 }
 footer a {
-  display: flexbox;
   text-decoration: none;
   color: gray;
 }
 .links1 {
   width: 200px;
-  height: 800px;
+  height: 225px;
   position: relative;
-  left: 20%;
+  left: 17%;
   top: 20%;
 }
 .links1 ul li {
+  list-style: none;
+  padding: 10px;
+}
+.links2 {
+  width: 200px;
+  height: 180px;
+  position: relative;
+  left: 35%;
+  bottom: 25%;
+}
+.links2 ul li {
   list-style: none;
   padding: 10px;
 }
