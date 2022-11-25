@@ -287,7 +287,7 @@ hr {
   font-size: 17px;
   font-weight: lighter;
   align-items: center;
-  color: lightblue;
+  color: rgb(25, 25, 231);
   justify-content: center;
 }
 .strange {
@@ -351,7 +351,7 @@ button {
   border: none;
   cursor: pointer;
   left: 50%;
-  font-weight: lighter;
+  font-weight: light;
 }
 .butn {
   rotate: 45deg;
@@ -381,6 +381,17 @@ footer {
 }
 footer a {
   display: flexbox;
-  text-decoration-color: gray;
+  text-decoration: none;
+  color: gray;
+}
+.links1 {
+  width: 200px;
+  height: 800px;
+  position: relative;
+  left: 20%;
+  top: 20%;
+}
+.links1 ul li {
   list-style: none;
+  padding: 10px;
 }
