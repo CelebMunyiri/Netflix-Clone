@@ -427,3 +427,6 @@ footer a {
   list-style: none;
   padding: 10px;
 }
+footer a:hover {
+  text-decoration: underline;
+}
