@@ -45,6 +45,8 @@
   height: 100vh;
   background: url("https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/4934d81e-fd30-44e4-8532-34e4f51f0289/KE-en-20221121-popsignuptwoweeks-perspective_alpha_website_small.jpg");
   background-size: cover;
+  background-color: rgb(15, 1, 1);
+  /* overflow-x: hidden; */
 }
 .intro p {
   text-align: center;
@@ -219,7 +221,7 @@ hr {
 }
 .p13 {
   position: relative;
-  left: 55%;
+  left: 50%;
   bottom: 32%;
   color: #fff;
   font-size: 60px;
@@ -227,7 +229,7 @@ hr {
 }
 .p14 {
   position: relative;
-  left: 60%;
+  left: 50%;
   bottom: 32%;
   color: #fff;
   font-size: 30px;
@@ -335,6 +337,7 @@ hr {
   background: rgb(49, 49, 49);
   margin: 10px;
   text-align: 10px 20px;
+  padding-top: 10px;
 }
 .it {
   position: relative;
@@ -349,9 +352,8 @@ hr {
   background: rgb(48, 47, 47);
   font-size: 30px;
   width: 800px;
-  height: 300px;
+  height: 250px;
   margin: 10px;
-  padding: -20px 10px;
 }
 button {
   position: relative;
@@ -365,13 +367,14 @@ button {
 }
 .butn {
   rotate: 45deg;
+  font-weight: lighter;
 }
 nav {
   padding: 0px 20px;
 }
 .sign2 {
   position: relative;
-  top: 25%;
+  top: 15%;
   left: 14%;
   height: 100px;
   width: 800px;
@@ -439,4 +442,15 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+.btn {
+  font-weight: 1px;
+}
+.video{
+  position:relative;
+  left:35%;
+  height:400px;
+  width:500px;
+  bottom:120px;
+  display:inline-block;
 }
