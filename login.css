@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.loginpage {
+  display: flex;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid green;
+}
