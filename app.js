@@ -4,7 +4,7 @@ const it = document.querySelectorAll(".it");
 const buton = document.querySelectorAll(".btn");
 const butn = document.querySelectorAll(".butn");
 const getStarted = document.querySelectorAll(".get");
-const sign = document.querySelectorA(".sign");
+const sign = document.querySelector(".sign");
 
 for (let i = 0; i < buton.length; i++)
   for (let i = 0; i < it.length; i++)
