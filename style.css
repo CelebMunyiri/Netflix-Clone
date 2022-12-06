@@ -453,6 +453,13 @@ video {
   width: 368px;
   bottom: 100px;
 }
-@media screen {
-  display: flex;
+.sign {
+  width: 500px;
+  height: 500px;
+  background: black;
+  position: relative;
+  left: 10%;
+  bottom: 100px;
+  display: grid;
+  place-items: center;
 }
