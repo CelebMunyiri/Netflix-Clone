@@ -101,7 +101,7 @@
 .get:hover {
   background-color: rgb(255, 0, 0);
 }
-.intro input {
+input {
   padding: 0px 10px;
   position: relative;
   left: 25%;
@@ -453,12 +453,19 @@ video {
   width: 368px;
   bottom: 100px;
 }
-/*.sign {
-  width: 500px;
+.form {
+  width: 400px;
   height: 400px;
   background: black;
   position: relative;
   left: 30%;
-  top: 100px;
+  top: -150px;
 
-  place-items: center;}*/
+  place-items: center;
+  display: grid;
+  place-items: center;
+}
+.form [input] {
+  width: 80px;
+  height: 30px;
+}

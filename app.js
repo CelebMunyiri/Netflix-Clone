@@ -4,7 +4,7 @@ const it = document.querySelectorAll(".it");
 const buton = document.querySelectorAll(".btn");
 const butn = document.querySelectorAll(".butn");
 const getStarted = document.querySelectorAll(".get");
-const sign = document.querySelector(".sign");
+const sign = document.querySelector(".form");
 
 for (let i = 0; i < buton.length; i++)
   for (let i = 0; i < it.length; i++)
@@ -21,8 +21,10 @@ for (let i = 0; i < buton.length; i++)
           it[i].classList.add("hidden");
         });
     });
-getStarted[i].addEventListener("click", function () {
-  for (let i = 0; i < getStarted.length; i++) {
-    sign.classList.toggle("hidden");
-  }
-});
+
+for (let i = 0; i < getStarted.length; i++)
+  getStarted[i].addEventListener("click", function () {
+    console.log("button clicked");
+    sign.style.background = "red";
+    sign.classList.add("hidden");
+  });
