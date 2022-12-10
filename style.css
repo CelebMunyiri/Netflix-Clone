@@ -365,10 +365,7 @@ button {
   left: 50%;
   font-weight: light;
 }
-.butn {
-  rotate: 45deg;
-  font-weight: lighter;
-}
+
 nav {
   padding: 0px 20px;
 }
@@ -456,7 +453,7 @@ video {
 .form {
   width: 400px;
   height: 400px;
-  background: rgb(165, 164, 164);
+  background: rgb(247, 245, 245);
   position: relative;
   left: 30%;
   top: -290px;
