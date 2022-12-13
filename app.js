@@ -5,6 +5,7 @@ const buton = document.querySelectorAll(".btn");
 
 const getStarted = document.querySelectorAll(".get");
 const sign = document.querySelector(".form");
+const signIn = document.querySelector(".signin");
 
 //implementing the buttons on FAQ page
 for (let i = 0; i < buton.length; i++)
@@ -23,3 +24,6 @@ for (let i = 0; i < getStarted.length; i++)
     //sign.style.background = "red";
     sign.classList.toggle("hidden");
   });
+signIn.addEventListener("click", function () {
+  sign.classList.toggle("hidden");
+});
