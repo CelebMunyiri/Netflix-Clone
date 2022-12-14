@@ -8,12 +8,13 @@ const sign = document.querySelector(".form");
 const signIn = document.querySelector(".signin");
 
 //implementing the buttons on FAQ page
+
 for (let i = 0; i < buton.length; i++)
   buton[i].addEventListener("click", function () {
     it[i].classList.toggle("hidden");
     if (buton[i].classList.contains("hidden")) {
       buton[i].style.rotate = "90deg";
-    } else {
+    } else if (!it[i].classList.contains("hidden")) {
       buton[i].style.rotate = "45deg";
     }
   });
