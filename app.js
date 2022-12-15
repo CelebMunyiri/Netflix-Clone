@@ -28,3 +28,4 @@ for (let i = 0; i < getStarted.length; i++)
 signIn.addEventListener("click", function () {
   sign.classList.toggle("hidden");
 });
+const submit = function () {};
