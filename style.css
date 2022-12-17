@@ -441,7 +441,7 @@ footer a:hover {
   text-decoration: underline;
 }
 .btn {
-  font-weight: lighter;
+  font-weight: 100;
 }
 video {
   position: relative;
