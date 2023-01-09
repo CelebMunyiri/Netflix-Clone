@@ -13,7 +13,7 @@ for (let i = 0; i < buton.length; i++)
   buton[i].addEventListener("click", function () {
     it[i].classList.toggle("hidden");
     if (buton[i].classList.contains("hidden")) {
-      buton[i].style.rotate = "90deg";
+      buton[i].style.rotate = "0deg";
     } else if (!it[i].classList.contains("hidden")) {
       buton[i].style.rotate = "45deg";
     }
@@ -28,4 +28,3 @@ for (let i = 0; i < getStarted.length; i++)
 signIn.addEventListener("click", function () {
   sign.classList.toggle("hidden");
 });
-const submit = function () {};
