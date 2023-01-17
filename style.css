@@ -352,6 +352,7 @@ hr {
   left: 21%;
   top: 12%;
   display: hidden;
+  margin-bottom: 5px;
 
   justify-content: center;
   align-items: center;
